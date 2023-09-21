@@ -1,0 +1,271 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 6);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ #title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+  font-weight: 200;
+}
+
+li{
+   display: inline-block;
+   margin: 20px;
+}
+a{
+  color: rgb(253, 253, 253);
+}
+
+a:hover{
+   color: rgb(253, 253, 6)
+   
+}
+
+h1{
+   font-weight: 200;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2{
+  font-size: 45px;
+  line-height: 10px;
+}
+span{
+  color: white;
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+}
+
+img{
+  position: relative;
+  left: 200px;
+  top: 30px;
+  width: 400px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form[type="submit"]{
+   height: 50px;
+   width: 100%;
+   background-color: yellow;
+   color: white;
+   font-weight: bold;
+   transition: transform 0.2s;
+  }
+  form [type="submit"]:hover{
+    background-color: yellow;
+transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid rgb(204, 192, 24);
+  }
+
+input{
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 1px solid yellow;
+}
+
+
+
+
+.enviar{
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.body-two {
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.068);
+  color: rgb(255, 255, 255);
+}
+.body-two summary {
+  background-color: rgb(216, 216, 216);
+  padding: 30px;
+  border-bottom: 2px solid #282828;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+details{
+background-color: rgb(148, 148, 148);
+
+}
+
+.duvidas{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.perguntas h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.p-teste{
+  color: rgb(255, 238, 0);
+  background-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+  
+
+.mapa-dirce iframe{
+margin: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  .mapa-dirce h1{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    top: 0px ;
+    left: 380px;
+font-weight: bold;
+  }
+
+  </section> .avaliação {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(235, 234, 232)
+    }
+
+    .card {
+      height: 400px;
+        background-color: rgb(0, 0, 0);
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .user {
+      position: relative;
+      left: 0px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .stars {
+        font-size: 24px;
+    }
+
+    .avaliação h3{
+      font-size: 20px;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      top: 20px;
+    }
+
+    .avaliação H1{
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .avaliação p{
+      font-size: 17px;
+      text-align: center;
+    }
+
+    .footer {
+  background-color: #06121e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 0;
+  gap: 25px;
+  color: white;
+}
+.footer h2 {
+  color: rgb(0, 255, 174);
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s;
+  gap: 10px;
+  
+}
+.footer-icons .footer-icons:hover {
+  transform: scale(1.2);
+
+}
+.footer-icons i {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s;
+  gap: 10px;
+}
+.footer-icons i:hover {
+  transform: scale(1.2);
+}
+
+.footer img{
+position: relative;
+top: 0;
+left:1px
+}
+
